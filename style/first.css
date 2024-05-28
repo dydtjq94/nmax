@@ -7,7 +7,6 @@
 
 .first__dis {
   /* background-color: rgba(0, 0, 0, 0.3); */
-
   display: flex;
   height: 100vh;
   align-items: center;
@@ -21,13 +20,15 @@
 }
 
 .first__dis__left {
-  width: 150px;
+  width: 320px;
   margin-top: 60px;
+  display: flex;
 }
 
 .first__dis__left img {
   border-radius: 20px;
-  width: 100%;
+  width: 50%;
+  padding: 0 20px;
 }
 
 .first__dis__right {
