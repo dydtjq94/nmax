@@ -35,12 +35,13 @@ body {
 }
 
 .title_wrap .title {
-  font-size: 48px;
+  font-size: 72px;
   font-weight: 800;
+  margin-bottom: 10px;
 }
 
 .title_wrap .description {
-  font-size: 24px;
+  font-size: 36px;
 }
 
 .screen img {
