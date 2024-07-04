@@ -50,4 +50,5 @@ body {
   height: auto;
   border-radius: 20px;
   margin-bottom: 100px;
+  box-shadow: 0 0px 100px 5px rgba(225, 255, 42, 0.3);
 }
