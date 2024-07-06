@@ -48,7 +48,6 @@ body {
   top: 20%; /* Adjust this value to center the image as needed */
   width: 100%; /* Adjust size as needed */
   height: auto;
-  border-radius: 20px;
   margin-bottom: 100px;
   box-shadow: 0 0px 100px 5px rgba(225, 255, 42, 0.3);
 }
