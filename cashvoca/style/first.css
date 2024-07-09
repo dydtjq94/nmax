@@ -1,0 +1,159 @@
+.first__dis__wrap {
+  /* background: url(https://ifh.cc/g/KYmdE8.jpg) no-repeat center;
+  background-size: cover; */
+  background-color: #00a1e7;
+  width: 100%;
+}
+
+.first__dis {
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.first__align {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first__dis__left {
+  width: 320px;
+  margin-top: 60px;
+  display: flex;
+}
+
+.first__dis__left img {
+  border-radius: 20px;
+  width: 50%;
+  padding: 0 20px;
+}
+
+.first__dis__right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* text-shadow: 0px 10px 20px rgba(60, 60, 60, 0.5); */
+}
+
+.first__dis__title {
+  font-size: 80px;
+  color: white;
+  font-weight: 700;
+  margin-top: 60px;
+  text-align: center;
+  margin-bottom: 10px;
+  line-height: 36px;
+}
+
+.title__sub {
+  font-size: 32px;
+  margin-top: 80px;
+  color: white;
+}
+
+.first__dis__sub {
+  font-size: 20px;
+  line-height: 50px;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.first__dis__email__notice {
+  font-size: 20px;
+  color: rgb(238, 238, 238);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.gform {
+  width: 70%;
+}
+
+.first__dis__input__wrap {
+  display: flex;
+  width: 100%;
+  margin-top: 16px;
+}
+
+.dis__input__wrap {
+  width: 100%;
+
+  border: 1px solid #51b8de;
+  border-radius: 4px 0 0 4px;
+  background-color: white;
+}
+
+.first__dis__input {
+  margin-top: 2px;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.submit__btn__wrap {
+  border-radius: 0px;
+  background-color: #51b8de;
+  padding: 13px;
+  color: white;
+  border: none;
+  border-radius: 0 4px 4px 0;
+}
+
+.first__dis__submit {
+  background: none;
+  border: none;
+  color: white;
+}
+
+.first__dis__submit:hover {
+  cursor: pointer;
+}
+
+.applying {
+  color: white;
+}
+
+.thankyou_message {
+  margin-top: 12px;
+  color: white;
+  margin-left: 6px;
+  font-weight: 700;
+}
+
+.download__wrap {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.ios__img {
+  width: 180px;
+  margin-right: 20px;
+}
+.ios__img:hover {
+  cursor: pointer;
+}
+
+.ios__img img {
+  width: 100%;
+}
+
+.google__img {
+  width: 200px;
+  margin-left: 20px;
+}
+.google__img:hover {
+  cursor: pointer;
+}
+.google__img img {
+  width: 100%;
+}
