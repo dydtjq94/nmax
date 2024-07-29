@@ -1,25 +1,53 @@
-@import 'first.css';
-@import 'how.css';
-@import 'habitat.css';
-@import 'review.css';
-@import 'explore.css';
-@import 'entire.css';
-@import 'more.css';
 @import 'reset.css';
 @import 'animate.css';
 @import 'media.css';
 @import 'footer.css';
+@import 'cookie.css';
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 
 body {
-  font-family: 'Open Sans', sans-serif;
   width: 100%;
   height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #1d1d1c;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.screen {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* Needed for absolute positioning of the image */
+}
+.screen .title_wrap {
+  color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 60px;
 }
 
-.none {
-  display: none;
+.title_wrap .title {
+  font-size: 72px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.title_wrap .description {
+  font-size: 36px;
+}
+
+.screen img {
+  top: 20%; /* Adjust this value to center the image as needed */
+  width: 100%; /* Adjust size as needed */
+  height: auto;
+  margin-bottom: 100px;
+  box-shadow: 0 0px 100px 5px rgba(225, 255, 42, 0.3);
 }
