@@ -1,0 +1,10 @@
+@media screen and (max-width: 499px) {
+  body {
+    width: 499px;
+    background-color: red;
+  }
+
+  .screen {
+    width: 50%;
+  }
+}
